@@ -52,12 +52,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BarnsÅlderBallong.cs" />
     <Compile Include="Cirkelns_Area_Omkrets.cs" />
     <Compile Include="Color_And_Decleration.cs" />
     <Compile Include="GradeCalc.cs" />
+    <Compile Include="JämtEllerUdda.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Program.JämtEllerUdda.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Pythagoras.cs" />
+    <Compile Include="RektangelnsArea.cs" />
+    <Compile Include="Tid.cs" />
+    <Compile Include="Trigonometrisk.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

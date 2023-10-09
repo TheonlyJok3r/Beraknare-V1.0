@@ -8,12 +8,11 @@ using System.Drawing;
 
 namespace Beräknare_V1._0
 {
-    class Color_And_Decleration
+    public class Color_And_Decleration
     {
         public static void Color_Decleration()
         {
-            int UserMainInput;
-            string välkomnare = "Valkommen till beräknaren V1.0".Pastel(ConsoleColor.Red);
+
 
 
             string väljare = "Välj  en beräkning du vill mellan 1-12".Pastel(ConsoleColor.Red);
@@ -29,20 +28,51 @@ namespace Beräknare_V1._0
             string trigonometrisk_Funktion = "trigonometrisk Funktion".Pastel(ConsoleColor.Red);
             string andragradekvation = "andragradekvation".Pastel(ConsoleColor.Red);
             string Celsius_Fahrenheit = "Celsius->Fahrenheit".Pastel(ConsoleColor.Red);
-            String N1 = "1".Pastel(ConsoleColor.Magenta);
-            String N2 = "2".Pastel(ConsoleColor.Magenta);
-            String N3 = "3".Pastel(ConsoleColor.Magenta);
-            String N4 = "4".Pastel(ConsoleColor.Magenta);
-            String N5 = "5".Pastel(ConsoleColor.Magenta);
-            String N6 = "6".Pastel(ConsoleColor.Magenta);
-            String N7 = "7".Pastel(ConsoleColor.Magenta);
-            String N8 = "8".Pastel(ConsoleColor.Magenta);
-            String N9 = "9".Pastel(ConsoleColor.Magenta);
-            String N10 = "10".Pastel(ConsoleColor.Magenta);
-            String N11 = "11".Pastel(ConsoleColor.Magenta);
-            String N12 = "12".Pastel(ConsoleColor.Magenta);
+            string N1 = "1".Pastel(ConsoleColor.Magenta);
+            string N2 = "2".Pastel(ConsoleColor.Magenta);
+            string N3 = "3".Pastel(ConsoleColor.Magenta);
+            string N4 = "4".Pastel(ConsoleColor.Magenta);
+            string N5 = "5".Pastel(ConsoleColor.Magenta);
+            string N6 = "6".Pastel(ConsoleColor.Magenta);
+            string N7 = "7".Pastel(ConsoleColor.Magenta);
+            string N8 = "8".Pastel(ConsoleColor.Magenta);
+            string N9 = "9".Pastel(ConsoleColor.Magenta);
+            string N10 = "10".Pastel(ConsoleColor.Magenta);
+            string N11 = "11".Pastel(ConsoleColor.Magenta);
+            string N12 = "12".Pastel(ConsoleColor.Magenta);
 
-          
+
+            string välkomnare = "Valkommen till beräknaren V1.0".Pastel(ConsoleColor.Red);
+
+            Console.Clear();
+            Console.WriteLine(@"	                         ____________________________________________________
+	                        ||████████ " + välkomnare + @" ██████████||
+	                         \<><><><><><><><><><><><><><><><><><><><><><><><><>/
+	                          \<><><><><><><><><><><><><><><><><><><><><><><><>/
+	                           \<><><><><><><><><><><><><><><><><><><><><><><>/
+	                            \<><><><><><><><><><><><><><><><><><><><><><>/
+				    |<> " + väljare + @" <>|
+	                            |<><><><><><><><><><><><><><><><><><><><><><>|
+	                            |" + N1 + @" |<><><><><><>" + Betyg + @"<><><><><><><><><><><><>|
+	                            |" + N2 + @" |<><><><><><>" + Pythagora_Sats + @"<><><><><><><>|
+	                            |" + N3 + @" |<><><><><><>" + Cirkelns_rea_och_omkrets + @"<><>|
+	                            |" + N4 + @" |<><><><><><>" + Rektangels_Area + @"<><><><><><><>|
+	                            |" + N5 + @" |<><><><><><>" + Två_Klave + @"<><><><><><><><><><>|
+	                            |" + N6 + @" |<><><><><><>" + Tid + @"<><><><><><><><><><><><><>|
+	                            |" + N7 + @" |<><><><><><>" + Barnens_ålder_för_present + @"<><>|
+	                            |" + N8 + @" |<><><><><><>" + Tal_som_är_jämna_eller_udda + @"<>|
+	                            |" + N9 + @" |<><><><><><>" + trekast_tärning + @"<><><><><><><><>|
+	                            |" + N10 + @"|<><><><><><>" + trigonometrisk_Funktion + @"<><><>|
+	                            |" + N11 + @"|<><><><><><>" + andragradekvation + @"<><><><><><>|
+	                            |" + N12 + @"|<><><><><><>" + Celsius_Fahrenheit + @"<><><><><>|
+	                            |<><><><><><><><><><><><><><><><><><><><><><>|
+	                            |____________________________________________|
+	                           /<><><><><><><><><><><><><><><><><><><><><><><>\
+	                          /<><><><><><><><><><><><><><><><><><><><><><><><>\
+	                         /<><><><><><><><><><><><><><><><><><><><><><><><><>\
+	                        /<><><><><><><><><><><><><><><><><><><><><><><><><><>\
+	                       ||                                                    ||");
+
 
         }
     }
