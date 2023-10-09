@@ -1,4 +1,10 @@
-﻿using System;
+﻿using Pastel;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Drawing;
 
 namespace Beräknare_V1._0
 {
@@ -50,7 +56,7 @@ namespace Beräknare_V1._0
 
             {
 
-                Console.WriteLine("Du anlände på c, jätte bra jobbat " + namn);
+                Console.WriteLine("Du anlände på C, jätte bra jobbat " + namn);
                 Console.ReadLine();
             }
 
@@ -58,15 +64,15 @@ namespace Beräknare_V1._0
 
             {
 
-                Console.WriteLine("Du anlände på C, du kan bättre " + namn);
+                Console.WriteLine("Du anlände på D, du kan bättre " + namn);
                 Console.ReadLine();
             }
 
-            else if (betyg >= 50)
+            else if (betyg >= 40)
 
             {
 
-                Console.WriteLine("Du anlände på D, vad händer? " + namn);
+                Console.WriteLine("Du anlände på E, vad händer? " + namn);
                 Console.ReadLine();
             }
 

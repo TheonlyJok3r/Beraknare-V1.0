@@ -52,6 +52,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cirkelns_Area_Omkrets.cs" />
+    <Compile Include="Color_And_Decleration.cs" />
     <Compile Include="GradeCalc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
