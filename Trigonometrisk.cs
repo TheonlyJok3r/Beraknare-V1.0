@@ -8,7 +8,7 @@ using System.Drawing;
 
 namespace Beräknare_V1._0
 {
-    class Trigonometrisk
+    partial class Trigonometrisk
     {
         public static void TrigonometriskBeräkning()
         {
@@ -21,12 +21,22 @@ namespace Beräknare_V1._0
 
             Console.WriteLine("vad är värdet för hypotenusa?");
             string HypotenusaInput = Console.ReadLine();
+            Console.Clear();
 
-            if (double.TryParse(MotsattaInput, out double Motsatta) && double.TryParse(intilliggandeInput, out double intilliggande))
+            if (double.TryParse(intilliggandeInput, out double intilligande) && double.TryParse(HypotenusaInput, out double Hypotenusan))
             {
-                Console.WriteLine(Math.Tan(Motsatta/intilliggande));
-                Console.ReadLine();
+                Console.WriteLine(Math.Sin(intilligande / Hypotenusan));
             }
+            else if (double.TryParse(MotsattaInput, out double Motsatta) && double.TryParse(HypotenusaInput, out double Hypotenusan2))
+            {
+                Console.WriteLine(Math.Cos(Motsatta / Hypotenusan2));
+            }
+            else if (double.TryParse(intilliggandeInput, out double intilliggande2) && double.TryParse(MotsattaInput, out double Motsatta2))
+            {
+
+                Console.WriteLine(Math.Tan(intilliggande2 / Motsatta2));
+            }
+            Console.ReadLine();
         }
     }
 }

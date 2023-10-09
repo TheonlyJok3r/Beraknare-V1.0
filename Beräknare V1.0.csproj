@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Andragrads.cs" />
     <Compile Include="BarnsÅlderBallong.cs" />
     <Compile Include="Cirkelns_Area_Omkrets.cs" />
     <Compile Include="Color_And_Decleration.cs" />
