@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
+using System.Threading;
+
 
 namespace Beräknare_V1._0
 {
@@ -14,25 +16,26 @@ namespace Beräknare_V1._0
         {
 
             int betyg;
+            string namn, betyg1;
 
-            Console.WriteLine("Skriv in ditt Namn: ");
 
-            string namn = Console.ReadLine();
-            Console.Clear();
-            Console.WriteLine("skriv in betyget Mellan 1-100: ");
-            
-            String betyg1 = Console.ReadLine();
-            Console.Clear();
             while (true)
             {
 
+                Console.WriteLine("Skriv in ditt Namn: ");
+
+                namn = Console.ReadLine();
+                Console.WriteLine("skriv in betyget Mellan 1-100: ");
+
+                betyg1 = Console.ReadLine();
                 if (int.TryParse(betyg1, out betyg) && betyg > 1 && betyg < 100)
                 {
                     break;
                 }
 
                 Console.WriteLine("Ogiltig Tal eller information. Skriv in ditt betyg som ska vara mellan 1-100.");
-                Console.ReadLine();
+                Thread.Sleep(2000);
+
                 Console.Clear();
             }
 

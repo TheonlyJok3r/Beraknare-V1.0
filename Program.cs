@@ -58,6 +58,9 @@ namespace Beräknare_V1._0
                 case 10:
                     Trigonometrisk.TrigonometriskBeräkning();
                     break;
+                case 11:
+                    Andragrads.AndraGradsEkvation();
+                    break;
             }
         }
     }
