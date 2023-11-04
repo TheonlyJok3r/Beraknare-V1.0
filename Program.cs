@@ -1,4 +1,4 @@
-﻿using Pastel;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,9 +17,9 @@ namespace Beräknare_V1._0
             while (true)
             {
 
-                Color_And_Decleration.Color_Decleration();
+             Color_And_Decleration.Color_Decleration();
 
-                String MainInput = Console.ReadLine();
+                String? MainInput = Console.ReadLine();
 
                 if (int.TryParse(MainInput, out UserMainInput) && UserMainInput >= 1 && UserMainInput <= 12)
                 {

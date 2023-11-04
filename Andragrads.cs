@@ -1,4 +1,4 @@
-﻿using Pastel;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,7 +43,7 @@ namespace Beräknare_V1._0
         {
             while (true)
             {
-                Console.WriteLine("vad för X^2 har du , om du inte har något skriv in '0' ? ");
+                Console.WriteLine("vad för X^2 har du? ");
                 string Inputx = Console.ReadLine();
 
                 Console.WriteLine("Vad för x har du? ");

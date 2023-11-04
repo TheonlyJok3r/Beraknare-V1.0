@@ -1,4 +1,4 @@
-﻿using Pastel;
+﻿using Spectre.Console;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,38 +14,37 @@ namespace Beräknare_V1._0
         {
 
 
+            string väljare = ("[red]Välj  en beräkning du vill mellan 1-12[/]");
+            string Betyg = ("[red]Betyg[/]");
+            string Pythagora_Sats = ("[red]Pythagoras Sats[/]");
+            string Cirkelns_rea_och_omkrets = ("[red]Cirklens Area och Omkrets[/]");
+            string Rektangels_Area = ("[red]Rektangels Area[/]");
+            string Två_Klave = ("[red]Två Klave[/]");
+            string Tid = ("[red]Tid[/]");
+            string Barnens_ålder_för_present = ("[red]Barnens ålder för present[/]");
+            string Tal_som_är_jämna_eller_udda = ("[red]Tal som är jämna eller udda[/]");
+            string trekast_tärning = ("[red]3kast tärning[/]");
+            string trigonometrisk_Funktion = ("[red]trigonometrisk Funktion[/]");
+            string andragradekvation = ("[red]andragradekvation[/]");
+            string Celsius_Fahrenheit = ("[red]Celsius->Fahrenheit[/]");
+            string N1 = ("[fuchsia]1[/]");
+            string N2 = ("[fuchsia]2[/]");
+            string N3 = ("[fuchsia]3[/]");
+            string N4 = ("[fuchsia]4[/]");
+            string N5 = ("[fuchsia]5[/]");
+            string N6 = ("[fuchsia]6[/]");
+            string N7 = ("[fuchsia]7[/]");
+            string N8 = ("[fuchsia]8[/]");
+            string N9 = ("[fuchsia]9[/]");
+            string N10 = ("[fuchsia]10[/]");
+            string N11 = ("[fuchsia]11[/]");
+            string N12 = ("[fuchsia]12[/]");
 
-            string väljare = "Välj  en beräkning du vill mellan 1-12".Pastel(ConsoleColor.Red);
-            string Betyg = "Betyg".Pastel(ConsoleColor.Red);
-            string Pythagora_Sats = "Pythagoras Sats".Pastel(ConsoleColor.Red);
-            string Cirkelns_rea_och_omkrets = "Cirklens Area och Omkrets".Pastel(ConsoleColor.Red);
-            string Rektangels_Area = "Rektangels Area".Pastel(ConsoleColor.Red);
-            string Två_Klave = "Två Klave".Pastel(ConsoleColor.Red);
-            string Tid = "Tid".Pastel(ConsoleColor.Red);
-            string Barnens_ålder_för_present = "Barnens ålder för present".Pastel(ConsoleColor.Red);
-            string Tal_som_är_jämna_eller_udda = "Tal som är jämna eller udda".Pastel(ConsoleColor.Red);
-            string trekast_tärning = "3kast tärning".Pastel(ConsoleColor.Red);
-            string trigonometrisk_Funktion = "trigonometrisk Funktion".Pastel(ConsoleColor.Red);
-            string andragradekvation = "andragradekvation".Pastel(ConsoleColor.Red);
-            string Celsius_Fahrenheit = "Celsius->Fahrenheit".Pastel(ConsoleColor.Red);
-            string N1 = "1".Pastel(ConsoleColor.Magenta);
-            string N2 = "2".Pastel(ConsoleColor.Magenta);
-            string N3 = "3".Pastel(ConsoleColor.Magenta);
-            string N4 = "4".Pastel(ConsoleColor.Magenta);
-            string N5 = "5".Pastel(ConsoleColor.Magenta);
-            string N6 = "6".Pastel(ConsoleColor.Magenta);
-            string N7 = "7".Pastel(ConsoleColor.Magenta);
-            string N8 = "8".Pastel(ConsoleColor.Magenta);
-            string N9 = "9".Pastel(ConsoleColor.Magenta);
-            string N10 = "10".Pastel(ConsoleColor.Magenta);
-            string N11 = "11".Pastel(ConsoleColor.Magenta);
-            string N12 = "12".Pastel(ConsoleColor.Magenta);
 
-
-            string välkomnare = "Valkommen till beräknaren V1.0".Pastel(ConsoleColor.Red);
+            string välkomnare = ("[red]Valkommen till beräknaren V1.0[/]");
 
             Console.Clear();
-            Console.WriteLine(@"	                         ____________________________________________________
+            AnsiConsole.Markup(@"	                         ____________________________________________________
 	                        ||████████ " + välkomnare + @" ██████████||
 	                         \<><><><><><><><><><><><><><><><><><><><><><><><><>/
 	                          \<><><><><><><><><><><><><><><><><><><><><><><><>/
