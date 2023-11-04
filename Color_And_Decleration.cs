@@ -41,6 +41,7 @@ namespace Beräknare_V1._0
             string N12 = ("[fuchsia]12[/]");
 
 
+
             string välkomnare = ("[red]Valkommen till beräknaren V1.0[/]");
 
             Console.Clear();
