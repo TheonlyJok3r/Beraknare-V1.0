@@ -557,3 +557,4 @@ namespace Beräknare_V1._0
         }
     }
 }
+}
